@@ -22,7 +22,6 @@ def ddSB(n,r):
 
 def P(i, x):
     return sp.legendre(i)(x)
-# print(P(12,5))
 
 def dP(i, x):
     return sp.legendre(i).deriv()(x)
