@@ -59,6 +59,8 @@ for i in range(N):  # Runge Kutta 4th order
               file_asph.write(str(a0sph[j]))
               file_asph.write(' ')
 
+              ##pegar o numero da componente do vetor
+
   file_asph.write("\n")
 
 # Close files

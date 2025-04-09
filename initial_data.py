@@ -29,3 +29,5 @@ a0sph = np.dot(Psi_inv, inidata)
 P = (PR+1) * (PX + 1)
 
 da0sph = np.zeros(P)
+
+print(a0sph)
