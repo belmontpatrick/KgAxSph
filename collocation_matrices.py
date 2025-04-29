@@ -80,8 +80,8 @@ dxPsi = np.kron(SB_r.T, dP_x.T)
 
 ddxPsi = np.kron(SB_r.T, ddP_x.T)
 
-np.savetxt("PsiPR20L1PX20.txt", Psi, fmt="%.16e", delimiter="\t")
-print("Psi saved ")
+# np.savetxt("PsiPR20L1PX20.txt", Psi, fmt="%.16e", delimiter="\t")
+# print("Psi saved ")
 
-np.savetxt("Psi_invPR20L1PX20.txt", Psi_inv, fmt="%.16e", delimiter="\t")
-print("Psi_inv saved ")
+# np.savetxt("Psi_invPR20L1PX20.txt", Psi_inv, fmt="%.16e", delimiter="\t")
+# print("Psi_inv saved ")
